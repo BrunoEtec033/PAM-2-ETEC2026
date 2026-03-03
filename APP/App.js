@@ -8,7 +8,7 @@ export default function App() {
     redirect: 'follow'
   };
 
-  fetch("http://localhost:3000/posts", requestOptions)
+  fetch("https://bookish-disco-r469gjp6wgpgfp4pq-3000.app.github.dev/posts", requestOptions)
     .then(response => response.json())
     .then(result => console.log(result))
     .catch(error => console.log('error', error));
